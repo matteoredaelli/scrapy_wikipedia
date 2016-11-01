@@ -20,3 +20,15 @@ class CountryIsoItem(scrapy.Item):
     country = scrapy.Field()
     iso = scrapy.Field()
 
+class CountryRegionItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    iso = scrapy.Field()
+    region = scrapy.Field()
+
+class CountryProvinciaItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    iso = scrapy.Field()
+    region = scrapy.Field()
+    provincia = scrapy.Field()
