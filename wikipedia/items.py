@@ -7,6 +7,12 @@
 
 import scrapy
 
+class AggettivoItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    name = scrapy.Field()
+
+    
 class CountryCapitalItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
